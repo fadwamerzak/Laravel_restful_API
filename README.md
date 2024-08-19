@@ -19,6 +19,15 @@ This project is a RESTful API built with Laravel, designed to manage a list of p
 - MySQL
 - Laravel 9.x
 
+### Testing with Postman
+You can test the API endpoints using Postman:
+
+1. **GET** `/api/products`: Retrieve all products.
+2. **POST** `/api/products`: Create a new product.
+3. **GET** `/api/products/{id}`: Retrieve a product by its ID.
+4. **PUT** `/api/products/{id}`: Update a product by its ID.
+5. **DELETE** `/api/products/{id}`: Delete a product by its ID.
+
 ## 📦 Usage
 
 ### 🔗 Available Endpoints
